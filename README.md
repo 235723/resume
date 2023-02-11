@@ -1,24 +1,14 @@
-# resume
+# 项目介绍 
 
-## Project setup
-```
-npm install
-```
+一份简约的简历 
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+  ●自动生成pdf 全自动化流程 <br>
+  ●本项目基于线上开源项目开发的VUE版本项目
 
-### Compiles and minifies for production
-```
-npm run build
-```
+# 快速使用
+  1.进入项目目录执行npm i安装依赖 <br>
+  2.执行npm run dev开始开发
+ 
+# 后续计划
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+  ●新增服务端管理目录，后台对简历实时修改。
