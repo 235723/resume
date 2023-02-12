@@ -7,7 +7,7 @@
 
 # 快速使用
   1.进入项目目录执行npm i安装依赖 <br>
-  2.执行npm run dev开始开发
+  2.执行npm run serve开始开发
  
 # 后续计划
 
