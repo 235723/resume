@@ -16,7 +16,7 @@
       </section>
       <section class="section-right">
         <ul>
-          <li>Github - LuZhiYao</li>
+          <li>Github - 2357</li>
           <li>2357236437@qq.com</li>
           <li>15606582396 &nbsp;&nbsp;<i class="el-icon-phone"></i></li>
         </ul>

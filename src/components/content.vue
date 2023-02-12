@@ -31,9 +31,10 @@
                         本人负责该项目的前端开发和维护。<br>
                         本人实现的主要功能有：首页，个人中心，详情页。
                     </p>
-                    <el-descriptions title="4.个人简历">
+                    <el-descriptions title="4.个人简历（已开源）">
                         <el-descriptions-item label="项目时间">2023年2月</el-descriptions-item>
                     </el-descriptions>
+                    开源地址：https://github.com/235723/resume   <br>
                     项目简介
                     <p class="introduction">
                         基于vue+element-ui+html2Canvas+jspdf。 <br>
