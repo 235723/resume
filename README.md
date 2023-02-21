@@ -1,6 +1,6 @@
 # 项目介绍 
 
-  预览：http://www.guoyi.pro/
+  预览：http://www.ysbm.top/
 
 一份简约的简历 
 
