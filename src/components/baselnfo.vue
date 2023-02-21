@@ -1,6 +1,6 @@
 <template>
   <div class="content-bd">
-    <img src="../assets/1.jpg" alt="">
+    <!-- <img src="../assets/1.jpg" alt=""> -->
     <div class="content-right">
       <div class="title">
         <span class="name">卢志瑶</span>
@@ -16,7 +16,7 @@
       </section>
       <section class="section-right">
         <ul>
-          <li>Github - 2357</li>
+          <li>Github - 235723</li>
           <li>2357236437@qq.com</li>
           <li>15606582396 &nbsp;&nbsp;<i class="el-icon-phone"></i></li>
         </ul>
@@ -50,8 +50,8 @@ img {
 }
 .content-right {
   position: relative;
-  float: right;
-  width: 950px;
+  /* float: right; */
+  /* width: 950px; */
 }
 .title {
   color: #fff;

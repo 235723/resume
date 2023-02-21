@@ -13,16 +13,16 @@
                         实现的主要功能有：导航栏，轮播图，搜索框。
                     </p>
 
-                    <el-descriptions title="2.xx产业大脑（公司项目）">
+                    <el-descriptions title="2.产业大脑（web）">
                         <el-descriptions-item label="项目时间">2022年2月-2022年6月</el-descriptions-item>
                     </el-descriptions>
                     项目简介
                     <p class="introduction">
-                        基于vue全家桶+element-ui+echarts。 <br>
+                        基于vue全家桶+element-ui+echarts+axios。 <br>
                         本人负责该项目的前端开发和维护。<br>
                         本人实现的主要功能有：项目官网，后台管理相关页面，登录页面。
                     </p>
-                    <el-descriptions title="3.xx产业大脑（公司项目 小程序）">
+                    <el-descriptions title="3.产业大脑（小程序）">
                         <el-descriptions-item label="项目时间">2022年2月-2022年6月</el-descriptions-item>
                     </el-descriptions>
                     项目简介
@@ -34,7 +34,7 @@
                     <el-descriptions title="4.个人简历（已开源）">
                         <el-descriptions-item label="项目时间">2023年2月</el-descriptions-item>
                     </el-descriptions>
-                    开源地址：https://github.com/235723/resume   <br>
+                    开源地址：<a @click="openGithub()">https://github.com/235723/resume </a>  <br>
                     项目简介
                     <p class="introduction">
                         基于vue+element-ui+html2Canvas+jspdf。 <br>
@@ -48,6 +48,14 @@
                 </div>
             </el-col>
             <el-col :span="12">
+                <el-divider>工作经验</el-divider>
+                <div class="work">
+                    <h3>台州美路智能科技有限公司</h3>
+                    <p class="introduction">
+                        2022.2-2022.6 前端开发工程师<br>
+                        负责网站前端开发，实现产品的页面交互及功能实现。参与项目的开发主要基于 vue  进行 web  前端开发，使用 uniAPP  开发小程序。
+                    </p>
+                </div>
                 <div class="skill">
                     <el-divider>技能</el-divider>
                     <section>
@@ -85,7 +93,16 @@
 
 <script>
 export default {
-
+    data(){
+        return {
+            
+        }
+    },
+    methods:{
+        openGithub(){
+            window.open('https://github.com/235723/resume')
+        }
+    }
 }
 </script>
 
@@ -119,5 +136,12 @@ export default {
 ul li {
     font-size: 18px;
     line-height: 40px;
+}
+a {
+    cursor: pointer;
+}
+a:hover {
+    color: blue;
+    text-decoration:underline;
 }
 </style>
