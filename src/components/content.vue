@@ -1,7 +1,7 @@
 <template>
     <div class="content-bd">
         <el-row>
-            <el-col :span="12" class="item-border">
+            <el-col  class="item-border">
                 <div class="item">
                     <el-divider>项目经历</el-divider>
                     <el-descriptions title="1.仿造学校官网">
@@ -47,7 +47,7 @@
                     </p>
                 </div>
             </el-col>
-            <el-col :span="12">
+            <el-col>
                 <el-divider>工作经验</el-divider>
                 <div class="work">
                     <h3>台州美路智能科技有限公司</h3>
@@ -144,4 +144,16 @@ a:hover {
     color: blue;
     text-decoration:underline;
 }
+.el-row {
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width: 600px) {
+  .el-row {
+        flex-direction: column;
+    }
+    .item-border {
+        border: 0;
+    }
+  }
 </style>

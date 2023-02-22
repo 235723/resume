@@ -5,7 +5,6 @@
       <v-base-info></v-base-info>
       <v-content></v-content>
     </div>
-    <v-foot></v-foot>
   </div>
 </template>
 
@@ -30,13 +29,20 @@ export default {
 
 <style scoped>
  .resume-div {
-    font-size: 14px;
-    line-height: 1.5;
-    overflow: auto;
-    padding-top: 0px;
+  display: flex;
+  flex-shrink:1;
+  flex-direction: column;
  }
  .content {
-  width: 1200px;
-  margin: 50px auto;
+  display: flex;
+  width: 70vw;
+  flex-direction: column;
+  flex-basis: 600px;
  }
+ 
+@media (max-width: 600px) {
+  .content {
+        width: 100vw;
+    }
+  }
 </style>

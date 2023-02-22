@@ -93,10 +93,9 @@ export default {
 
 <style scoped>
 .head {
-  width: 1200px;
-  position: relative;
-  top: 40px;
-  margin: 0 auto;
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
 }
 .download-pdf {
   position: relative;

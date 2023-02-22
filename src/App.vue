@@ -6,6 +6,8 @@
 
 <style>
 body {
+  display: flex;
+  justify-content: center;
   padding: 0px;
   margin: 0px;
   background-color: #eee;
