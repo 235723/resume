@@ -34,7 +34,8 @@
                     <el-descriptions title="4.个人简历（已开源）">
                         <el-descriptions-item label="项目时间">2023年2月</el-descriptions-item>
                     </el-descriptions>
-                    开源地址：<a @click="openGithub()">https://github.com/235723/resume </a>  <br>
+                    开源地址：<a @click="openGithub('https://github.com/235723/resume')">https://github.com/235723/resume </a>  <br>
+                    预览地址：<a @click="openGithub('http://ysbm.top')">http://ysbm.top </a> <br>
                     项目简介
                     <p class="introduction">
                         基于vue+element-ui+html2Canvas+jspdf。 <br>
@@ -99,8 +100,8 @@ export default {
         }
     },
     methods:{
-        openGithub(){
-            window.open('https://github.com/235723/resume')
+        openGithub(href){
+            window.open(href)
         }
     }
 }
